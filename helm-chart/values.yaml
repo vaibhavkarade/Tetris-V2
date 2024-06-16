@@ -64,10 +64,10 @@ ingress:
 resources:
   requests:
     memory: "10Gi"
-    cpu: "3"
-  limits:
-    memory: "14Gi"
-    cpu: "4"
+    cpu: "6"
+  # limits:
+  #   memory: "14Gi"
+  #   cpu: "4"
 
 # livenessProbe:
 #   httpGet:
