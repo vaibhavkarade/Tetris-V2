@@ -63,11 +63,11 @@ ingress:
 
 resources:
   requests:
-    memory: "512Mi"
-    cpu: "500m"
-  limits:
     memory: "1Gi"
-    cpu: "1"
+    cpu: "2"
+  limits:
+    memory: "3Gi"
+    cpu: "4"
 
 livenessProbe:
   httpGet:
